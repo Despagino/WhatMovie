@@ -37,6 +37,11 @@ class MovieStore: MovieService {
         }
         
         var queryItems = [URLQueryItem(name: "api_key", value: apiKey)]
+        if let params = params {
+            queryItems.append(contentsOf: params.map({ URLQueryItem(name: $0.key, value: $0.value) })
+                
+            )
+        }
         
     }
     
