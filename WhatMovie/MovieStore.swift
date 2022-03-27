@@ -36,7 +36,7 @@ class MovieStore: MovieService {
             return
         }
         
-        
+        var queryItems = [URLQueryItem(name: "api_key", value: apiKey)]
         
     }
     
