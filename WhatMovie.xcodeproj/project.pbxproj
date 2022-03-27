@@ -16,6 +16,8 @@
 		D391AB5E27EE450C009E317B /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = D391AB5D27EE450C009E317B /* search_movie.json */; };
 		D391AB6227EE4542009E317B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391AB6127EE4542009E317B /* Movie.swift */; };
 		D391AB6527EE484C009E317B /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391AB6427EE484C009E317B /* MovieService.swift */; };
+		D391AB6727EE4DB0009E317B /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391AB6627EE4DB0009E317B /* MovieStore.swift */; };
+		D391AB6927EE4EF8009E317B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391AB6827EE4EF8009E317B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		D391AB5D27EE450C009E317B /* search_movie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search_movie.json; sourceTree = "<group>"; };
 		D391AB6127EE4542009E317B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D391AB6427EE484C009E317B /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		D391AB6627EE4DB0009E317B /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		D391AB6827EE4EF8009E317B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				D391AB6427EE484C009E317B /* MovieService.swift */,
+				D391AB6627EE4DB0009E317B /* MovieStore.swift */,
+				D391AB6827EE4EF8009E317B /* Utils.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -187,10 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D391AB6927EE4EF8009E317B /* Utils.swift in Sources */,
 				D391AB4D27EE414B009E317B /* ContentView.swift in Sources */,
 				D391AB4B27EE414B009E317B /* WhatMovieApp.swift in Sources */,
 				D391AB6527EE484C009E317B /* MovieService.swift in Sources */,
 				D391AB6227EE4542009E317B /* Movie.swift in Sources */,
+				D391AB6727EE4DB0009E317B /* MovieStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
